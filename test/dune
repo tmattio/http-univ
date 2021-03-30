@@ -1,0 +1,10 @@
+(executable
+ (name main)
+ (libraries alcotest piaf))
+
+(rule
+ (alias runtest)
+ (action
+  (run %{exe:main.exe})))
+
+(include_subdirs unqualified)

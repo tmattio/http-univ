@@ -1,0 +1,5 @@
+(executable
+ (name app)
+ (libraries rock_httpaf httpaf-lwt-unix logs logs.fmt fmt fmt.tty))
+
+(include_subdirs unqualified)
